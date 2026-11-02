@@ -1,0 +1,51 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# API keys
+secrets.json
+credentials.json
+
+# Model files
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+
+# Vector databases and embeddings
+chroma_db/
+vector_db/
+embeddings/
+
+# Logs
+*.log
+logs/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
